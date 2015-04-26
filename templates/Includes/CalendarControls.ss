@@ -27,7 +27,7 @@
 		<!-- View Controls (Specify Day, Week, or Month View) -->
 		<div class="calendar-view btn-group hidden-xs" role="group">
 			
-			<a href="/$URLSegment/$Action" class="btn btn-default" title="View Today" rel="nofollow">
+			<a href="$URLSegment/$Action" class="btn btn-default" title="View Today" rel="nofollow">
 				Today
 			</a>
 			
