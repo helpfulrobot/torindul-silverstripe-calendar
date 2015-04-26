@@ -32,7 +32,7 @@ Installation
 
 ### Option A. Using Composer (Recommended)
 
-> composer require torindul/torindul-silverstripe-calendar
+> composer require "torindul/torindul-silverstripe-calendar": "dev-master"
 
 ### Option B. Manually 
 
