@@ -1,6 +1,5 @@
-Basic SilverStripe Calendar by Torindul
-====================
+# Basic SilverStripe Calendar by Torindul
 
-Introduction
----------------------
+### Introduction
+
 SilverStripe 3.1 Calendar Module
