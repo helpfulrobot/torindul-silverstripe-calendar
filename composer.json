@@ -6,7 +6,7 @@
 	"keywords": ["silverstripe", "calendar", "torindul"],
 	"license": "ISC",
 	"authors": [{
-		"name": "George Botlet",
+		"name": "George Botley",
 		"homepage": "http://torindul.co.uk"
 	}],
 	"require": {
