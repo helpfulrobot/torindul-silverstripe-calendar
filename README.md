@@ -28,7 +28,7 @@ Installation
 ### Requirements
 
 - SilverStripe 3.1 (CMS and Framework)
-
+- Bootstrap 3.3.4 or later (tested and confirmed to work with 3.3.4)
 
 ### Option A. Using Composer (Recommended)
 
