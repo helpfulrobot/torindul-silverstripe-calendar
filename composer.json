@@ -1,24 +1,15 @@
 {
-  "name": "torindul/torindul-silverstripe-calendar",
-  "description": "Calendar module with month, week, day and current year view.",
-  "type": "silverstripe-module",
-  "homepage": "http://github.com/torindul/torindul-silverstripe-calendar",
-  "keywords": ["silverstripe", "calendar", "torindul"],
-  "license": "ISC",
-  "authors": [
-    {"name": "George Botley","email": "george@torindul.co.uk"}
-  ],
-  "support": {
-    "issues": "http://github.com/torindul/torindul-silverstripe-calendar/issues"
-  },
-  "require": {
-    "silverstripe/cms": "~3.1",
-    "silverstripe/framework": "~3.1"
-  },
-  "extra": {
-    "installer-name": "torindu-silverstripe-calendar",
-    "screenshots": [
-      ""
-    ]
-  }
+	"name": "torindul/torindul-silverstripe-calendar",
+	"description": "Calendar module with month, week, day and current year view.",
+	"type": "silverstripe-module",
+	"homepage": "http://github.com/torindul/torindul-silverstripe-calendar",
+	"keywords": ["silverstripe", "calendar", "torindul"],
+	"license": "ISC",
+	"authors": [{
+		"name": "George Botlet",
+		"homepage": "http://torindul.co.uk"
+	}],
+	"require": {
+		"silverstripe/framework": "~3.1"
+	}
 }
