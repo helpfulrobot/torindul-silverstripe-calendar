@@ -1,9 +1,26 @@
 Basic SilverStripe Calendar by Torindul
 ====================
 
-## Introduction
+Features
+---------------------
 
-When working with our own clients we found that the majority of customers wanted an easy to use calendar within the site tree. Existing modules, whilst very strong, required the creation of pages to add events. Whilst okay on smaller sites it quickly became a mess on larger projects. torindul-silverstripe-calendar therefore makes makes use of custom DataObjects and GridField to achieve the same. Front end templates are given within the Module but are very limited by design to allow designers freedom to overwrite them.
+A simple calendar page type making use of DataObject and GridField. It offers:
+
+- Responsive Design
+- Easy Administration
+- Google Places API Event Location Autocomplete (Beta)
+- Month, Week and Day Views with a single year view on smaller displays.
+
+Why we created this module
+---------------------
+
+### The Problem
+
+When working with our own clients we found that the majority of customers wanted an easy to use calendar facility yet when searching existing modules we found that, whilst they were very strong, they often required the creation of a Calendar container page and many child pages (one per event). Whilst this is okay on smaller sites it became obvious this would became a pain to manage on larger projects.
+
+### The Solution
+
+With the above problem in mind we created a simple calendar application that provided event administration via a single calendar page type with all events to be held in a DataObject and managed with GridField. We did this instead of ModalAdmin as it allows site administrators to create multiple calendars in different locations throughout the site, if required.
 
 Installation
 ---------------------
