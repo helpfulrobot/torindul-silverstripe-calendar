@@ -67,7 +67,7 @@ class Calendar_Controller extends Page_Controller {
 	    parent::init();
 		
 		//Include the CSS in the users selected theme to ensure the calendar styles correctly
-	    Requirements::css("torindul-calendar/css/calendar.css");
+	    Requirements::css("torindul-silverstripe-calendar/css/calendar.css");
 	    
 	}
 	
