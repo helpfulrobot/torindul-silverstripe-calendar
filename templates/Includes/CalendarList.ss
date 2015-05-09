@@ -12,14 +12,12 @@
 				
 					<% loop $Top.EventsInMonth( $MonthNumber ) %>
 					
-						<div class="col-md-2 col-xs-3 calendar-no-padding">
+						<div class="col-md-12 col-xs-12 calendar-no-padding">
 							$Top.stringToDate($StartDate, 'jS M')
 							<% if $StartDate!=$EndDate %> - $Top.stringToDate($EndDate, 'jS M')<% end_if %>
 						</div>
 						
-						<div class="col-xs-1">&nbsp;</div>
-						
-						<div class="col-md-10 col-xs-8 calendar-no-padding">
+						<div class="col-md-12 col-xs-12 calendar-no-padding">
 							<p>
 								<a href="$Top.URLSegment/view/$Top.stringToSEOURL($Title)-$ID" title="View $Title event">$Title</a>
 							</p>
