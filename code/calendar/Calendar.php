@@ -896,17 +896,13 @@ class Calendar_Controller extends Page_Controller {
 	*/
 	public function stringToSEOURL($String) {
 		
-		/* Strip punctuation */
-		$String = preg_replace("/(?![.=$'?%-])\p{P}/u", "", $String);
+		$filter = URLSegmentFilter::create();
+		$t = $filter->filter($String);
 		
-		/* Strip spaces and replace with hyphens */
-		$String = str_replace(" ", "-", $String);
+		// Fallback to generic page name if path is empty (= no valid, convertable characters)
+		if(!$t || $t == '-' || $t == '-1') $t = "page-$this->ID";
 		
-		/* Convert string to lowercase */
-		$String = strtolower($String);
-		
-		/* Return result */
-		return $String;
+		return $t;
 		
 	}
 	
